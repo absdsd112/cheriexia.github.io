@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ff6b81;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+}
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffddc1;
+}
+/* Styling for the menu sections */
+.menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Left-align headings */
+
+.menu h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; /* Space between heading and items */
+    position: relative;
+    right: 100px;
+}
+
+/* Flexbox to arrange menu items in a row */
+.menu-category {
+    display: flex;
+    justify-content: center; /* Center items */
+    gap: 10px; /* Add space between items */
+    flex-wrap: wrap; /* Ensure it wraps properly on smaller screens */
+    margin-bottom: 30px; /* Add spacing between sections */
+}
+
+/* Individual menu items */
+.menu-item {
+    text-align: center;
+    flex: 0 1 100px; /* Ensures equal spacing */
+}
+
+/* Style for images */
+.menu-item img {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Style for menu labels */
+.menu-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+.menu .product img {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu .product img:hover {
+    transform: scale(1.05);
+}
+
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product img:hover {
+    transform: scale(1.05);
+}
